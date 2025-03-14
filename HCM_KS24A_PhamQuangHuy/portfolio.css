@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /*head*/
+header{
+    display: flex;
+    background-color:#FEF0E3;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    height: 20vh;
+    width: 100vw;
+}
+header>p{
+    font-size: 24px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}
+
+nav>a{
+    color: black;
+}
+
+.nav{
+    background-color: black;
+    color: white;
+    height: 40%;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.body{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    background-color: #F9DBC1;
+}
+
+.container1{
+    position: relative;
+    width: 50%;
+    border: 1px solid black;
+}
+.content{
+    position: relative;
+    gap: 10px;
+    top: 40%;
+}
+.container2{
+    width: 50%;
+    border: 1px solid black;
+}
+
+.container2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.box2{
+    display: flex;
+}
+
+.box3{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+    width: 20%;
+}
+
+.container1 button{
+    background-color: #AC82FC;
+    width: 20%;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 3px 5px 0px black;
+}
+
+/*middle*/
+.mid{
+    background-color: #C6C2CD;
+}
+
+.midheader{
+    text-align: center;
+}
+
+#p1{
+    color: blue;
+}
+
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+}
+
+.producttag{
+    width: 40%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.producttag img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+/*footer*/
+.contract{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    background-color: #FFD7D4;
+}
+
+.contractcontainer{
+    background-color: #FFD7D4;
+}
+
+.footerhead{
+    text-align: center;
+}
+
+.icon{
+
+}
+
+.contracttag{
+    display: flex;
+}
+
+
+
